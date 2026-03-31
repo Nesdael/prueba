@@ -1,0 +1,18 @@
+[
+    {
+        "0000": {
+            "name": "Manuel",
+            "age": 20,
+            "type": "Course",
+            "state": "Active"
+        }
+    },
+    {
+        "0001": {
+            "name": "Carlos",
+            "age": 10,
+            "type": "Course",
+            "state": "Active"
+        }
+    }
+]
