@@ -8,9 +8,17 @@
         }
     },
     {
-        "0001": {
-            "name": "Carlos",
-            "age": 10,
+        "0002": {
+            "name": "Diego",
+            "age": 12,
+            "type": "Course",
+            "state": "Inactive"
+        }
+    },
+    {
+        "0003": {
+            "name": "Dylan",
+            "age": 25,
             "type": "Course",
             "state": "Active"
         }

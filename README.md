@@ -11,6 +11,6 @@ This project is a simple system that allows for the management of basic student 
 - can look for a student
 
 ## What does the code do?
-The code can register a student and save it in a list that is stored in a JSON file.
-It can display all the information that is in the list
-You can search for a student using an ID or name, update student information, and delete a student using their ID.
+The code allows you to register students and save their information in a list stored in a Json file.
+It can display all the student information stored un the list.
+you can search for a student by ID or name, update their information, and delete a student usinf their ID

@@ -1,14 +1,14 @@
 #We import the files we need
 from menu import menu
-from funciones import *
+from functions import *
 from crud import *
 
 
-continuar = "si"
+continue_program = "yes"
 load_students_json(students)
-while continuar == "si":
+while continue_program == "yes":
     menu() #print the menu
-    opcion = input("Que desea realizar?\n") #asks the user to select an option
+    opcion = input("What do you want to do?\n") #asks the user to select an option
     
     #Then it enters these conditionals depending on what the user chooses
     if opcion == "1":
@@ -22,8 +22,7 @@ while continuar == "si":
     elif opcion == "5":
         delete_students(students)
     elif opcion == "6":
-        print("leaving the program")
-        salir()
+        continue_program = salir()
         
     else: #If you don't choose a valid option, it arrives here and asks you again, until you choose a correct option.
         print("Select a valid option")

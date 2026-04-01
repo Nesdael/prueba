@@ -1,5 +1,6 @@
 def menu():
     
+    print("---Menu---")
     print("1. Register new student")
     print("2. View student list")
     print("3. Search student")

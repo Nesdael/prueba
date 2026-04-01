@@ -39,7 +39,7 @@ def update_students_json(students, student_id, new_data):
             student[student_id].update(new_data)
             save_students_json(students)
             return True
-        return False
+    return False
     
 #This function removes a user from the JSON and then saves it.
 def delete_students_json(students, student_id):
@@ -49,5 +49,5 @@ def delete_students_json(students, student_id):
             students.remove(student)
             save_students_json(students)
             return True
-        return False
+    return False
     
